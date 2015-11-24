@@ -248,7 +248,7 @@ set tags+=~/gitdb/rails/tags
 let g:acp_enableAtStartup = 0
 
 "ctrlP忽略文件夹
-let g:ctrlp_user_command = 'find %s -type f | grep -v "`cat .ctrlpignore`"'
+let g:ctrlp_user_command = 'find %s -type f | grep -v "`cat .gitignore`"'
 
 " Enable omni completion.
 autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
